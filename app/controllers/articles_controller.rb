@@ -42,4 +42,8 @@ class ArticlesController < ApplicationController
 
     redirect_to articles_path
   end
+
+  def tag_list
+    tags.join(", ")
+  end
 end
