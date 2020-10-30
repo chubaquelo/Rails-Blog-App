@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   include ArticlesHelper
-  before_action :require_login, except: [:index, :show]
+  before_action :require_login, except: %i[index show]
 
   def index
     @articles = Article.all
@@ -33,18 +33,18 @@ class ArticlesController < ApplicationController
     @article.update(article_params)
 
     flash.notice = "Article '#{@article.title}' Updated!"
-  
+
     redirect_to article_path(@article)
   end
 
   def destroy
     Article.find(params[:id]).destroy
-    flash.notice = "Article Destroyed!"
+    flash.notice = 'Article Destroyed!'
 
     redirect_to articles_path
   end
 
   def tag_list
-    tags.join(", ")
+    tags.join(', ')
   end
 end
