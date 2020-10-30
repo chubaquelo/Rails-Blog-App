@@ -1,26 +1,49 @@
-# README
+![alt text](https://camo.githubusercontent.com/3a5835d4f56c57cec85939ac345e43fef164c178/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6963726f76657273652d626c756576696f6c6574 "Microverse")
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby on Rails Blog App
+In this project we are setting up a blog using Ruby on Rails.
 
-Things you may want to cover:
+We implemented file upload, authentication feature, user comments, authors, and tags features.
 
-- Ruby version
+![alt text](https://i.imgur.com/2rPTnod.jpg "Preview Img")
 
-- System dependencies
+## Built With
+- RUBY
+- RUBY ON RAILS
+- HTML
+- CSS
 
-- Configuration
+### Ruby Gems:
+- Sourcery
+- ImageMagick
+- Paperclip
 
-- Database creation
+## Live Demo
+[Live Demo Link](https://lit-everglades-73200.herokuapp.com/ "Live Demo")
 
-- Database initialization
+## Authors
 
-- How to run the test suite
+👤 **Sergio Obolevich**
 
-- Services (job queues, cache servers, search engines, etc.)
+- Github: [@chubaquelo](https://github.com/chubaquelo)
+- Twitter: [@sergioobolevich](https://twitter.com/SergioObolevich)
+- Linkedin: [sergio-obolevich](https://www.linkedin.com/in/sergio-obolevich/)
 
-- Deployment instructions
+👤 **Martin Najjar**
 
-- ...
+- Github: [@martinnajjar12](https://github.com/martinnajjar12)
+- Twitter: [@martin_najjar](https://twitter.com/martin_najjar)
+- Linkedin: [martinnajjar12](https://www.linkedin.com/in/martinnajjar12/)
 
-development branch
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check the issues page.
+
+## Show your support
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+## 📝 License
+This project is MIT licensed.
+
