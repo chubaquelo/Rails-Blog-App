@@ -8,7 +8,13 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use Rubocop as a linter
 gem 'rubocop', '~>0.81.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+group :development, :test do
+ gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
